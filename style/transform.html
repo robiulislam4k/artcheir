@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container,.inner{
+            width: 200px;
+            height: 200px;
+        }
+        .container{
+            border: 2px solid greenyellow;
+            background-color: bisque;
+        }
+        .inner{
+            border: 2px solid brown;
+            background-color: palegoldenrod;
+            /* transform: scale(0.50); */
+            /* transform: rotate(45deg); */
+            transform: scale(0.5) rotate(45deg) translateX(50px);
+        }
+        .inner:hover{
+            transform: rotate(45deg);
+
+        }
+    </style>
+</head>
+<body> 
+    <h2>Expore transform and translate</h2>
+
+    <div class="container"> container-1
+<div class="inner"> inner-1</div>
+    </div>
+
+    <div class="container"> container-2
+        <div class="inner"> inner-2</div>
+            </div>
+
+            <div class="container"> container-3
+                <div class="inner"> inner-3</div>
+                    </div>
+
+
+</body>
+</html>
